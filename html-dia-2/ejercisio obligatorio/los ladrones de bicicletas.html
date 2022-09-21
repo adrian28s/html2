@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario1</title>
+</head>
+
+<body>
+
+    <h1>Los ladrones de bicicletas</h1>
+    <form>
+        <label for="fecha">fecha:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+        <label for="appt">Selecione una hora:</label>
+        <input type="time" id="appt" name="appt"><br><br>
+        <label for="color">Selecione el color de su bicicleta:</label>
+        <input type="color" id="color" name="color"><br><br>
+        <input type="range" min="-0.1" max="2.000€"></label>
+
+        <p>Tipo de bicicleta</p>
+        <label for="paseo">Paseo:</label>
+        <select id="paseo" name="paseo">
+            <option value="señorial">señorial</option>
+            <option value="anti-plebeyos">anti-plebeyos</option>
+            <option value="por encima del hombro">Por encima del hombro</option>
+        </select>
+
+        <label for="montaña">montaña:</label>
+        <select id="montaña" name="montaña">
+            <option value="fango lover">fango lover</option>
+            <option value="gamusinos">gamusinos</option>
+            <option value="por encima del hombro">Por encima del hombro</option>
+        </select>
+
+        <label for="carreras">carreras:</label>
+        <select id="carreras" name="carreras">
+            <option value="metroymedio">metroymedio</option>
+            <option value="3 de la tarde. Fluorecente edition">3 de la tarde. Fluorecente edition</option>
+            <option value="grupitors">grupitors</option>
+        </select>
+
+        <p>Seleciona tus accesorios</p>
+        <label for="Accesorios">Accesorios:</label>
+        <select id="Accesorios" name="Accesorios" size="4" multiple>
+            <option value="ruedines">ruedines</option>
+            <option value="pegatinas">pegatinas</option>
+            <option value="castita">cestita</option>
+            <option value="bomba de aire">bomba de aire</option>
+            <option value="timbre">timbre</option>
+            <option value="foco">foco</option>
+        </select>
+
+        <p>¿Qué marca era?:</p>
+
+        <form action="/action_page.php">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="specialized">
+                <option value="trek">
+                <option value="merida">
+                <option value="scott">
+                <option value="giant">
+                <option value="cube">
+                <option value="lapierre">
+                <option value="orbea">
+                <option value="cannondate">
+                <option value="bmc">
+                <option value="look">
+                <option value="protek">
+                <option value="megano">
+                <option value="pinarelo">
+                <option value="bianchi">
+                <option value="bh">
+                <option value="factor">
+                <option value="hgost">
+                <option value="cervélo">
+                <option value="argon">
+            </datalist>
+            <input type="submit">
+        </form>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
